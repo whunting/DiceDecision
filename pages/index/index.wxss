@@ -1,0 +1,30 @@
+/**index.wxss**/
+@font-face {
+  font-family: 'iconfont';  /* project id 1040291 */
+  src: url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.eot');
+  src: url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tianjiajiahaowubiankuang:before {
+  content: "\e81a";
+}
+
+.icon-tianjia:before {
+  content: "\e752";
+}
+
+.myBox {
+  
+}
