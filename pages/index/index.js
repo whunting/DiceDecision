@@ -2,15 +2,16 @@
 Page({
   // 跳转到添加页面
   toAdd: function (options) {
-    wx.switch (key) {
-      case value:
+    wx.navigateTo({
+      url: '../add/add',
+      success: (result)=>{
         
-        break;
-    
-      default:
-        break;
-    }
-  }
+      },
+      fail: ()=>{},
+      complete: ()=>{}
+    });
+  },
+  
   /**
    * 页面的初始数据
    */

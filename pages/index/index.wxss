@@ -1,4 +1,11 @@
 /**index.wxss**/
+.myBox{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 @font-face {
   font-family: 'iconfont';  /* project id 1040291 */
   src: url('//at.alicdn.com/t/font_1040291_yfukcr5nkim.eot');
@@ -23,8 +30,6 @@
 
 .icon-tianjia:before {
   content: "\e752";
-}
-
-.myBox {
-  
+  font-size: 250rpx;
+  color: grey;
 }

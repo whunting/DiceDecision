@@ -1,7 +1,17 @@
 <!--index.wxml-->
 <view class="container">
     <view class="myBox">
-        <icon class="iconfont icon-tianjia" style=";font-size:120rpx; " bindtap="toAdd" ></icon>
-        <icon class="iconfont icon-tianjia" style=";font-size:120rpx;"></icon>
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
     </view>
+    <view class="myBox">
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
+    </view>
+    <view class="myBox">
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
+        <icon class="iconfont icon-tianjia" bindtap="toAdd" ></icon>
+    </view>
+    
+    <button >合成</button>
 </view>
